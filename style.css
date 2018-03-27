@@ -1,0 +1,576 @@
+/*
+Theme Name: Cabinets by Appointment
+Author: Azizul Haque
+Author URI: https://keendevs.com/
+Description: WordPress theme developed for Cabinets by Appointment
+Version: 1.0.0
+Text Domain: Cabinets by Appointment
+*/
+
+
+/* Umber grig plugin css overright */
+p{
+    font-size: 18px;
+    line-height: 26px;
+}
+a{
+    color: #A90049;
+}
+a:hover{
+    color: #8B003C
+}
+div.uber-grid-filters {
+    margin-bottom: 30px !important;
+}
+
+div.uber-grid-filters > div a {
+	font-size: 14px !important;
+	border-width: 2px !important;
+	font-family: 'GothamHTF' !important;
+	font-weight: 500 !important;
+}
+
+div.uber-grid-filters > div a, div.uber-grid-pagination > div a {
+ padding: 0.5em 0.5em !important;
+}
+
+
+/* Align css */
+img.alignright { 
+    float: right; 
+    margin: 0 0 1em 1em; 
+}
+img.alignleft { 
+    float: left; 
+    margin: 0 1em 1em 0; 
+}
+img.aligncenter { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.alignright { 
+    float: right; 
+}
+.alignleft { 
+    float: left; 
+}
+.aligncenter { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/*banner*/
+.banner_content h3 {
+    color: #fff;
+    z-index: 1;   
+}
+.banner_content h1 {
+    font-weight: bold;
+    color: #fff;
+    z-index: 1;
+}
+.banner_content{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+.banner_content:before {
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+.menu_top ul li span{
+    font-family: 'GothamHTF';
+    font-weight: 400;
+}
+.call_to_action h2{
+    margin: 10px 0px 10px;
+}
+
+@media (max-width:991px){
+    .call_to_action .text-right{
+        text-align: center;   
+    }
+    .call_to_action h2{
+        text-align: center;
+    }
+}
+.call_to_action a.btn{
+    margin-top: 5px;
+}
+.call_to_action a.phone{
+    font-weight: bold;
+}
+.uber-grid-edit-wrapper {
+    display: none !important;
+}
+
+.products{
+    padding: 30px 0;
+}
+.products h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+.products h3 {
+    margin: 0;
+    color: #fff;
+}
+#dealer img {
+    margin: 0 auto;
+}
+.contact_us_area p{
+    line-height: 24px;
+}
+.gform_wrapper .top_label .gfield_label{
+    display: none !important;
+}
+body .gform_wrapper ul li.gfield{
+    margin-top: 0 !important;
+}
+.gform_wrapper{
+    margin: 0 !important;
+}
+body .gform_wrapper .top_label div.ginput_container{
+    margin: 0 !important;
+}
+.gform_wrapper .gform_footer {
+    padding: 0px 0 10px !important;
+    text-align: right;
+    margin: 0 !important;
+}
+.gform_wrapper .gform_footer input[type=submit]{
+    border: 0 !important;
+}
+.gform_wrapper .gform_footer input[type=submit]:hover{
+    background-color: #8B003C !important;
+    color: #fff;
+}
+.gform_wrapper .gform_footer input[type=submit]{
+    margin-right: 0 !important;
+    background: #A90049 !important;
+    color: #fff;
+    border-radius: 5px !important;
+}
+/*about_page*/
+.about_banner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 0.00% 82.56%;
+    background-color: transparent;
+    background-size: cover;
+    height: 460px;
+    position: relative;
+}
+.about_banner:before{
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+
+}
+.page_title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about_banner h3{
+    color: #fff;
+}
+.separator.bottom.big.text-center {
+    margin-top: 40px;
+}
+.page_single .gform_wrapper textarea.medium {
+    height: 250px;
+}
+.page_single h3{
+    text-align: center;
+}
+
+.dropdown-menu>li>a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #57BA46;
+    outline: 0;
+}
+.dropdown-menu>.active>a{
+    color: #000;
+    text-decoration: none;
+    background-color: #E7E7E7;
+    outline: 0;
+}
+.dropdown-menu>.active>a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #57BA46;
+    outline: 0;
+}
+.navbar-default .navbar-nav li.dropdown:hover .dropdown-menu{
+    display: inherit;
+}
+.dropdown-menu{
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .contact_right{
+        padding: 0 25px;
+    }
+}
+#maps{
+    height: 500px;
+}
+.border1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #FF1500;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0px;
+}
+.border2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 35px;
+    right: 0;
+    margin: 0 auto;
+    top: 15px;
+    background: #540024;
+    padding: 30px;
+}
+.border2 svg{
+    fill: #FF1500;
+}
+.process_content{
+    margin-top: 30px;
+    padding-top: 100px
+}
+.process_title{
+    padding-bottom: 30px;
+}
+.process_title h3{
+    color: #540024;
+    font-weight: bold;
+}
+.process_title h1{
+    color: #A90049;
+    font-weight: bold;
+}
+.process_content h4{
+    font-weight: bold;
+}
+.process_border{
+    position: relative;
+}
+.process_border:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: red;
+    top: 60px;
+    left: 78%;
+
+}
+.process_border:last-child:after{
+    width: 0px;
+}
+@media only screen and (max-width: 767px) {
+    .process_border:after{
+        width: 0px;
+    }
+}
+
+
+
+
+
+/*Showroom Locator Styles*/
+.slp_results_container .results_wrapper {
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 0 !important;
+    width: 369px;
+    margin-left: 30px !important;
+    background-color: #ddd;
+    margin-bottom: 30px;
+}
+#map_sidebar {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -30px;
+    font-family: lato;
+    font-weight: 400;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.slp_results_container .results_wrapper .location_name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.location_secondary {
+    font-size: 14px;
+    line-height: 20px;
+}
+.results_row_left_column {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+span.location_distance {
+    width: 130px;
+    font-size: 14px;
+    text-align: right;
+}
+span.location_name {
+    font-size: 18px !important;
+    line-height: 20px !important;
+}
+.slp_results_container .results_wrapper{
+    padding: 0.5em 0.8em!important;
+    position: relative;
+    z-index: 1;
+}
+.location_primary.featured,
+.location_primary.featured a{
+    color: #fff;
+}
+.slp_result_directions {
+    font-size: 14px;
+}
+.slp_result_contact {
+    display: inline-block;
+}
+span.slp_result_address.slp_result_street {
+    font-style: italic;
+}
+.slp_result_directions a {
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+.slp_result_directions a i {
+    margin-top: 4px;
+    text-align: left;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+.slp_result_directions a:hover i {
+    margin-left: 4px;
+}
+div.wrapper.featured {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block !important;
+    background-color: #FACD4F;
+    z-index: -1;
+}
+@media only screen and (max-width: 1000px){
+    .slp_results_container .results_wrapper {
+        width: 100%;
+    }
+    #radius_in_submit {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .slp_results_container .results_wrapper {
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1199px){
+    .slp_results_container .results_wrapper {
+        width: 46.4%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    #addy_in_radius {
+        margin-left: 30px;
+    }
+}
+div.results_row_left_column{
+    width: 100% !important;
+}
+span.location_distance{
+    width: 30% !important;
+}
+span.location_name{
+    width: 70% !important;
+    display: inline-block !important;
+}
+div.results_row_center_column{
+    width: 100% !important;
+}
+span.slp_result_address {
+    width: initial !important;
+}
+div.results_row_right_column{
+    width: 100% !important;
+}
+span.slp_result_contact.slp_result_phone{
+    text-align: left;
+}
+span.slp_result_contact.slp_result_directions{
+    text-align: left;
+}
+div.results_entry:hover{
+    background: #ddd !important;
+}
+div.results_entry a:hover{
+    background: transparent !important;
+}
+#addy_in_radius label.text.length_6{
+    display: none;
+}
+
+select#radiusSelect {
+    border: solid 1px silver;
+}
+#searchForm SELECT {
+    margin: 0 50px 0 0 !important;
+}
+#searchForm LABEL{
+    vertical-align: inherit !important;
+}
+.slp_search_form .search_box .search_item {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+    margin-bottom: .25em;
+}
+.slp_search_form .search_box .search_item div {
+    flex: 1 1 auto;
+    display: flex;
+}
+.slp_search_form .search_box .search_item div {
+    flex: 1 1 auto;
+    display: flex;
+}
+.slp_search_form .search_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+}
+#searchForm #radius_in_submit input{
+    background: #A90049 !important;
+    color: #fff;
+}
+div.results_entry.featured{
+    background: transparent !important;
+}
+div.wrapper.featured{
+    background: #4CAF50 !important;
+}
+/*single-showroom*/
+#signle_banner{
+    position: relative;
+    color: #fff;
+}
+#signle_banner:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #0000008f;
+}
+#signle_banner h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#signle_banner .address{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
+ul.social_icon{
+    margin-bottom: 30px;
+}
+ul.social_icon li{
+    list-style: none;
+    display: inline-block;
+    border-right: 2px solid #fff;
+    padding: 0 10px;
+}
+ul.social_icon li:last-child{
+    border-right: 0;
+}
+ul.social_icon li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+ul.social_icon li a i{
+    padding-right: 5px;
+}
+ul.social_icon li a:hover{
+    color: #4CAF50;
+}
+.gform_wrapper .top_label input.medium.datepicker{
+    width: 100% !important;
+}
+.gform_wrapper.gf_browser_chrome select {
+    padding: 10px 0 10px 3px !important;
+}
+.schedule_title{
+    padding: 40px;
+}
+.appointment_form {
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px 8px #ddd;
+}
+.brand-logo{
+    padding-top: 60px;
+}
+.brand-logo img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
